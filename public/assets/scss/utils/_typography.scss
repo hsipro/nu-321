@@ -1,0 +1,74 @@
+
+// custom Gordita font
+
+@font-face {
+    font-family: 'Actor';
+    src: url('../../fonts/Actor-Regular.woff2') format('woff2'),
+        url('../../fonts/Actor-Regular.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../fonts/OpenSans-VariableFont_wdth,wght.woff2') format('woff2'),
+        url('../../fonts/OpenSans-VariableFont_wdth,wght.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Actor';
+    src: url('../../fonts/Gordita-Medium.woff2') format('woff2'),
+        url('../../fonts/Gordita-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../fonts/Gordita-Bold.woff2') format('woff2'),
+        url('../../fonts/Gordita-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+// font family
+$font-family: (
+    ff: (
+        body: "Actor",
+        heading: "Open Sans",
+        p: "Actor",
+        fontawesome: '"Font Awesome 6 Pro"',
+    )
+);
+
+// font weight
+$font-scale: (
+    fw: (
+        normal: normal,
+        elight: 200,
+        light: 300,
+        regular: 400,
+        medium: 500,
+        sbold: 600,
+        bold: 700,
+    )
+);
+
+// font size
+$font-size: (
+    fz: (
+        body: 14px,
+        p: 16px,
+        h1: 40px,
+        h2: 36px,
+        h3: 24px,
+        h4: 20px,
+        h5: 16px,
+        h6: 14px,
+    )
+);
+
+
