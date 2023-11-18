@@ -315,7 +315,7 @@
                 &::before {
                     position: absolute;
                     content: '';
-                    background-image: url("../../img/banner/h-shape-01.png");
+                    background-image: url("../../img/line-green.png");
                     top: 53px;
                     left: 0;
                     height: 4px;
@@ -395,7 +395,7 @@
             }
             &:hover {
                 &>a {
-                    color: var(--tp-theme-1);
+                    color: #D4F579;
                     &::after {
                         color: var(--tp-theme-1);
                     }

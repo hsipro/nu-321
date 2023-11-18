@@ -71,7 +71,7 @@ const ServicesAll = () => {
                   <div className="tp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                     {/* Link to the service details page */}
                     <h3 className="dp-column__title">
-                      <Link href="/service-details">{item.service_item}</Link>
+                      <Link href="#">{item.service_item}</Link>
                     </h3>
                     <div className="dp-column__text">
                       <p>{item.description}</p>
