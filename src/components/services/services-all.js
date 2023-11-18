@@ -56,7 +56,7 @@ const ServicesAll = () => {
               <h2
                 id={sectionTitle
                   .split(' ')
-                  .map((word) => word.slice(0, 2).toLowerCase())
+                  .map((word) => word.slice(0, 5).toLowerCase())
                   .join('-')}
                 className="dp-section-title-small text-uppercase text-left"
               >
