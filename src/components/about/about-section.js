@@ -11,7 +11,7 @@ const aboutInfo = {
   description: (
     <>
       <p>
-        At 321DataPro is more than an ITSM company; we are catalysts for change
+        321DataPro is more than an ITSM company; we are catalysts for change
         driven by a higher purpose. Our mission reaches beyond enhancing our
         clients' ROI; it's about transforming lives and livelihoods. At the
         forefront of technological innovation, we redefine digital solutions and
