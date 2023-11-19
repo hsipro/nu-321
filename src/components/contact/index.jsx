@@ -1,5 +1,5 @@
 import React from "react";
-import Breadcrumb from "../breadcrumb/breadcrumb";
+import Breadcrumb from "../../common/breadcrumb";
 import ContactForm from "../form/contact-form";
 import ContactInfo from "./contact-info";
 

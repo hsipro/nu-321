@@ -1,8 +1,7 @@
 import React from "react";
 import ServicenowIntro from "./introServices";
-import ServicesAll from "./allServices"
 import PageHeader from "@/src/common/page-header";
-import Breadcrumb from "../breadcrumb/breadcrumb";
+import Breadcrumb from "@/src/common/breadcrumb";
 
 const ServiceNow = () => {
   const pageHeaderData = {
@@ -13,8 +12,9 @@ const ServiceNow = () => {
 
   return (
     <>
-      <PageHeader {...pageHeaderData} />
+      <Breadcrumb  title="ServiceNow Solutions" subtitle="Servicenow" />
       <ServicenowIntro />      
+      <PageHeader {...pageHeaderData} />
 
     </>
   );

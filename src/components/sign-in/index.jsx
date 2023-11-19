@@ -1,6 +1,6 @@
 
 import React from "react";
-import Breadcrumb from "../breadcrumb/breadcrumb";
+import Breadcrumb from "../../common/breadcrumb";
 import LoginForm from "../form/login-form";
 
 const SignIn = () => {

@@ -1,22 +1,21 @@
 import React from "react";
-import DigitalServices from "./digitalServices";
+import ServicesIntroAlt from "./intro-services2";
 import PageHeader from "@/src/common/page-header";
-import Breadcrumb from "../../common/breadcrumb";
 
-const DigitalSolutions = () => {
+const ServicesAlt = () => {
   const pageHeaderData = {
     title: "Unleash Excellence with",
-    sub_title: "321DataPro Services 67",
+    sub_title: "321DataPro Services",
     bg_img: "/assets/img/breadcrumb/hdr-services.png",
   };
 
   return (
     <>
       <PageHeader {...pageHeaderData} />
-      <DigitalServices />      
+      < ServicesIntroAlt />      
 
     </>
   );
 };
 
-export default DigitalSolutions;
+export default ServicesAlt;

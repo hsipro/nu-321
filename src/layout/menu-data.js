@@ -25,6 +25,13 @@ const menu_data = [
     ],
   }, 
 
+  {
+    id: 7,
+    title: "Services ALT",
+    link: "/services-alt",
+    has_dropdown: false,
+  },
+  
 {
     id: 3,
     title: "Contact",

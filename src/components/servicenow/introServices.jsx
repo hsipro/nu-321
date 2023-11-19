@@ -24,13 +24,19 @@ const services = [
   },
 ];
 
-// Define information for the "Reach Out" section
-const reachOut = {
-  backgroundImage: "/assets/img/reach-out.jpg",
-  title: "Reach Out Today For A Brighter Tomorrow",
-  buttonText: "Contact Us",
-  buttonLink: "/contact",
-};
+// Action column component
+const ActionColumn = () => (
+  <div className="col-md-12">
+    <div className="tp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ backgroundImage: `url(/assets/img/reach-out.jpg)` }}>
+      <h3 className="text-uppercase text-white mt-30 mb-20">
+        Reach Out Today For A <br />Brighter Tomorrow
+      </h3>
+      <div className="dp-column__text">
+        <a className="btn-lgt-green" href="/contact">Contact Us</a>
+      </div>
+    </div>
+  </div>
+);
 
 const ServicenowIntro = () => {
   return (
@@ -52,24 +58,20 @@ const ServicenowIntro = () => {
                 {/* Display the service description and individual services */}
                 <div className="row mb-20">
                   {services.map((service, index) => (
-                    <div key={index} className={`col-md-6 ${index < 2 ? "col-lg-6" : "col-xl-6 col-lg-6"}`}>
+                    <div key={index} className={`col-md-6`}>
                       {/* Individual service block */}
-                      <div className="tp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ visibility: 'visible', animationDuration: '0.8s', animationDelay: '0.2s', backgroundImage: index === 3 && `url(${reachOut.backgroundImage})` }}>
+                      <div className="tp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ visibility: 'visible', animationDuration: '0.8s', animationDelay: '0.2s' }}>
                         {/* Service title with a link */}
-                        <h3 className="dp-column__title"><a href={service.link}>{service.title}</a></h3>
+                        <h3 className="dp-column__title">{service.title}</h3>
                         {/* Service description */}
                         <div className="dp-column__text">
                           <p>{service.description}</p>
                         </div>
-                        {/* Button for the "Reach Out" section */}
-                        {index === 3 && (
-                          <div className="dp-column__text">
-                            <a className="btn-lgt-green" href={reachOut.buttonLink}>{reachOut.buttonText}</a>
-                          </div>
-                        )}
                       </div>
                     </div>
                   ))}
+                  {/* Action column */}
+                  <ActionColumn />
                 </div>
               </div>
             </div>
