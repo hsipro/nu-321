@@ -1,22 +1,23 @@
 import React from "react";
-import ServicesIntro from "./introServices";
+import ServicenowIntro from "./introServices";
 import ServicesAll from "./allServices"
 import PageHeader from "@/src/common/page-header";
+import Breadcrumb from "../breadcrumb/breadcrumb";
 
-const Services = () => {
+const ServiceNow = () => {
   const pageHeaderData = {
     title: "Unleash Excellence with",
-    sub_title: "321DataPro Services",
+    sub_title: "321DataPro Services 67",
     bg_img: "/assets/img/breadcrumb/hdr-services.png",
   };
 
   return (
     <>
       <PageHeader {...pageHeaderData} />
-      <ServicesIntro />      
-      <ServicesAll />  
+      <ServicenowIntro />      
+
     </>
   );
 };
 
-export default Services;
+export default ServiceNow;

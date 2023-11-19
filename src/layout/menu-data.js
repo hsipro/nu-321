@@ -16,6 +16,13 @@ const menu_data = [
     title: "Services",
     link: "/services",
     has_dropdown: false,
+    sub_menus: [
+      { link: "/digitalsolutions", title: "Digital Solutions" },
+      { link: "/servicenow", title: "ServiceNow Solutions" },
+      { link: "/datadesign", title: "Data Design & Architecture" },
+      { link: "/aisolutions", title: "AI-Driven Solutions" },
+      { link: "/dataanalytics", title: "Data and Analytics" },
+    ],
   }, 
 
 {
