@@ -2,7 +2,7 @@ import React from "react";
 import About from "./about";
 import JoinUs from "@/src/common/join-us";
 import ServiceNow from "./servicenow";
-import Services from "@/src/common/services_block";
+import ServicesBlock from "./services";
 import HeroBanner from "./hero-banner";
 import BrandArea from "@/src/common/brand-area";
 
@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <HeroBanner />
       <About />
-      <Services />
+      <ServicesBlock />
       <JoinUs />
       <ServiceNow />     
     </>

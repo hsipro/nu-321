@@ -4,26 +4,20 @@ const servicesHome = [
   {
     id: 1,
     icon: "fi fa-solid fa-globe",
-    title: "CRM PLANNING AND DEVELOPMENT",
-    description: "Tailor-made website development designed to meet the distinctive requirements of your enterprise.",
+    title: "Website Design/Software Dev",
+    description: "Creative ideation, UI/UX design, and responsive layout. From Websites to Full-stack development.",
   },
   {
     id: 2,
     icon: "fi fa-solid fa-code",
-    title: "Full-stack Development",
-    description: "Creating end-to-end solutions with proficiency in both front-end and back-end technologies.",
-  },
-  {
-    id: 4,
-    icon: "fi fa-solid fa-cloud-arrow-up",
-    title: "Cloud Consulting",
-    description: "Expert guidance on choosing and implementing cloud solutions for scalability.",
+    title: "CRM Planning & Dev",
+    description: "Integration, customization, and management of CRM, and streamlined customer interactions.",
   },
   {
     id: 3,
     icon: "fi fa-solid fa-brain",
-    title: "AI-Driven Solutions",
-    description: "Enhance operations, customer experiences, and decision-making across your enterprise with AI.",
+    title: "AI Solutions",
+    description: "AI-driven analysis and insights for data optimization and AI-enhanced processes for efficiency and innovation",
   },
 ];
 
@@ -49,7 +43,7 @@ const ServicesBlock = () => {
         <div className="tp-feature-cn">
           <div className="row">
             {servicesHome.map((item) => (
-              <div key={item.id} className="col-xl-3 col-lg-7">
+              <div key={item.id} className="col-xl-4 col-lg-4">
                 <div className="dp-column mb-30 wow fadeInUp"
                   data-wow-duration=".8s"
                   data-wow-delay=".6s"
