@@ -65,8 +65,8 @@ const ContactForm = () => {
             </div>
             <div className="col-lg-6 col-md-12 col-12">
               <div className="contact-bg mb-60">
-                <img
-                  src="/assets/img/content/peopleinacircle.jpg"
+                <img className="img-fluid" 
+                  src="/assets/img/content/people.jpg"
                   alt="contact form image"
                 />
               </div>
