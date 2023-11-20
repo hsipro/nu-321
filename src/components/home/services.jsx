@@ -54,7 +54,7 @@ const ServicesBlock = () => {
                   <span className="dp-column__title mb-20"> {item.title}</span>
                   <div className="dp-column__text">
                     <p>{item.description}</p>
-                    <a className="mt-20 btn-arrow" href="#">
+                    <a className="mt-20 btn-arrow" href="/services">
                       See More                   
                     </a>
                   </div>
