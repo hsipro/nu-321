@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const sections = [
     // DIGITAL SOLUTIONS
@@ -46,35 +47,53 @@ const sections = [
   ];
 
 const ServicesIntroAlt = () => {
-  return (
-    // Service introduction section
-    <section className="tp-about-area pt-120 pb-90 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-      <div className="container">
-        {sections.map((section, index) => (
-          <div key={index} className="row align-items-center">
-            {/* Column for service title */}
-            <div className="col-xxl-5 col-xl-3 col-lg-3 col-md-3">
-              <div className="section-title mb-55">
-              {/* Make the title clickable and link it to section.link */}
-              <h2 className="dp-section-title mb-15 text-uppercase">
-                  <a href={section.link}>{section.title}</a>
-                </h2>
-              </div>
-            </div>
-            {/* Column for service description */}
-            <div className="col-xxl-7 col-xl-9 col-lg-9 col-md-9">
-              <div className="tp-about-content pb-30 ml-80">
+    return (
+      // Service introduction section
+      <section className="tp-about-area pt-120 pb-90 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
+        <div className="container">
+          {sections.map((section, index) => (
+            <div key={index} className="row align-items-center">
+              {/* Column for service title */}
+              <div className="col-xxl-5 col-xl-3 col-lg-3 col-md-3">
                 <div className="section-title mb-55">
-                  {/* Display the service description */}
-                  <p>{section.description}</p>
+                  {/* Make the title clickable and link it to section.link */}
+                  <h2 className="dp-section-title mb-15 text-uppercase">
+                    <Link href={section.link}>
+                 {section.title}
+                    </Link>
+                  </h2>
+                </div>
+              </div>
+              {/* Column for service description */}
+              <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-6">
+                <div className="tp-about-content pb-30 ml-40">
+                  <div className="section-title mb-55">
+                    {/* Display the service description */}
+                    <p>{section.description}</p>
+                
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-xxl-4 col-xl-2 col-lg-2 col-md-1">
+                <div className="tp-about-content pb-30 ml-80">
+               
+                    {/* Use a regular anchor tag for external links */}
+                    <a className="mt-20 btn-arrow" href={section.link}>
+                   .
+                    </a>
+
+                   
+              
                 </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-};
-
-export default ServicesIntroAlt;
+          ))}
+        </div>
+      </section>
+    );
+  };
+  
+  export default ServicesIntroAlt;
+  
