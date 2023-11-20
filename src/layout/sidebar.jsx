@@ -20,28 +20,12 @@ const Sidebar = ({ isActive, setIsActive }) => {
         <div className="sidebar-info">
           <h4 className="mb-15">Contact Info</h4>
           <ul className="side_circle">
-            <li>27 Division St, New York</li>
+          
             <li>
-              <a href="tel:123456789">+1 800 123 456 78</a>
-            </li>
-            <li>
-              <a href="mailto:321 DataPRO@example.com">321 DataPRO</a>
+              <a href="mailto: info@321datpro.com">info @ 321datpro.com</a>
             </li>
           </ul>
-          <div className="side-social">
-            <a href="#">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div>
+       
         </div>
       </div>
       <div className={`body-overlay ${isActive ? "opened" : ""} `} onClick={() => setIsActive(false)}></div>

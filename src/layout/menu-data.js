@@ -12,23 +12,9 @@ const menu_data = [
     has_dropdown: false,
   },
   {
-    id: 5,
+    id: 7,
     title: "Services",
     link: "/services",
-    has_dropdown: false,
-    sub_menus: [
-      { link: "/digitalsolutions", title: "Digital Solutions" },
-      { link: "/servicenow", title: "ServiceNow Solutions" },
-      { link: "/datadesign", title: "Data Design & Architecture" },
-      { link: "/aisolutions", title: "AI-Driven Solutions" },
-      { link: "/dataanalytics", title: "Data and Analytics" },
-    ],
-  }, 
-
-  {
-    id: 7,
-    title: "Services ALT",
-    link: "/services-alt",
     has_dropdown: false,
   },
   

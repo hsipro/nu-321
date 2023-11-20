@@ -426,3 +426,23 @@
 .small-header{
     font-size:16px;
 }
+
+
+
+.services-area li {
+    list-style: disc;
+}
+
+.bdr__bottom__grey {
+    border-bottom: 1px solid #eee;
+}
+.bdr__bottom__green {
+    border-bottom: 1px solid #D4F579;
+}
+
+@media only screen and (max-width: 1199px){
+    .join-us-area {
+        background-color: #37747A;
+    }
+}
+

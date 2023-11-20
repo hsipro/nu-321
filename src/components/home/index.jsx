@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <>
       <HeroBanner />
-      <BrandArea />
       <About />
       <Services />
       <JoinUs />

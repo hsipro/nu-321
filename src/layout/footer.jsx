@@ -19,10 +19,10 @@ const footer_data = [
     cls: "col-xl-3",
     footer_col: "footer-col-2",
     links: [
-      { name: "Website Solutions", link: "/policy" },
-      { name: "Full-stack Development", link: "#" },
-      { name: "Service Now", link: "#" },
-      { name: "AI-Driven Solutions", link: "#" },
+      { name: "CRM Planning And Development", link: "/services#crm" },
+      { name: "Website Design & Software Development", link: "#" },
+      { name: "Risk Assessment and Management", link: "#" },
+      { name: "Cloud Architecture Solutions", link: "#" },
     ],
   },
   {
@@ -31,9 +31,9 @@ const footer_data = [
     footer_col: "footer-col-3",
     cls: "col-xl-3",
     links: [
-      { name: "Data Migration", link: "#" },
-      { name: "Cloud Consulting & Migration", link: "#" },
-      { name: "Cyber Security", link: "#" },
+      { name: "Proactive monitoring, maintenance, and issue resolution", link: "#" },
+      { name: "Ongoing management, updates, and support ", link: "#" },
+      { name: "Cyber Security", link: "" },
     ],
   },
 ];
@@ -92,8 +92,8 @@ const Footer = () => {
                  
               
                   <div className="f-copyright__logo mb-30">
-                    <a href="#">
-                      <img src={logo} alt="logo" />
+                    <a href="/contact">
+                      <img src={logo} alt="logo 321 Datapro" />
                     </a>
                   </div>
                       

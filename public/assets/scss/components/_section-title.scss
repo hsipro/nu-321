@@ -46,23 +46,7 @@
   
 }
 
-.dp-section-title-alt {
-	font-size: 36px;
-	position: relative;
-	padding-left: 25px;
-    margin-left: -120px;
-	line-height: 1.3;
-	h2 {		
-		position: relative;
-		color: #21494E;
-	}
-}
 
-.dp-section-title-small {
-    font-size: 26px;
-    line-height: 1.3;
-	text-align:left
-}
 
 .tp-sub-title-box {
     padding: 12px 20px;
@@ -111,3 +95,17 @@
         background-color: var(--tp-heading-secondary);
     }
 }
+
+
+.dp-section-title-alt {
+    font-size: 36px;
+    position: relative;
+    padding-left: 25px;
+    line-height: 1.3;
+}
+
+@media only screen and (min-width: 1199px){
+
+    .dp-section-title-alt {
+        margin-left: -120px;}
+    }

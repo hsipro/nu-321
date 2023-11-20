@@ -20,9 +20,9 @@ const HeroBanner = () => {
                 <h2 className="hero-title gradient-line mb-35">{heroTitle}</h2>
                 <p>{heroText}</p>
                 <div className="tp-banner-btn">
-                  <Link href="/about" className="tp-btn">
-                    Get to know us
-                  </Link>
+                  <a href="/about" className="tp-bt7n">
+                  &#8595
+                  </a>
                 </div>
               </div>
             </div>

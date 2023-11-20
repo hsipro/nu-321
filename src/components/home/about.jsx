@@ -44,8 +44,9 @@ const About = () => {
                   <span className="colour-0">{titleOne}</span>{" "}
                   <span className="colour-4">{titleTwo}</span>
                 </h2>
-                <p>{description}</p>
+               
               </div>
+              <p>{description}</p>
               <div className="about-btn">
                 <Link href="/about" className="tp-btn">
                   {aboutBtn}
