@@ -25,7 +25,7 @@ const { img1, titleOne, titleTwo, description, aboutBtn } = aboutInfo;
 
 const About = () => {
   return (
-    <section
+    <section id="about"
       className="tp-about-area pt-120 pb-50 wow fadeInUp"
       data-wow-duration="1.5s"
       data-wow-delay=".4s"
