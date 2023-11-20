@@ -1,12 +1,13 @@
 import React from "react";
-import Breadcrumb from "../breadcrumb/breadcrumb";
+import Breadcrumb from "../../common/breadcrumb";
 import ContactForm from "../form/contact-form";
-import LocationArea from "./location-area";
+import ContactInfo from "./contact-info";
 
 const Contact = () => {
   return (
     <>
       <Breadcrumb  title="Contact Us" subtitle="contact" />
+      <ContactInfo />
       <ContactForm />
     </>
   );

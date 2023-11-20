@@ -1,7 +1,7 @@
 import FeatureArea from "@/src/common/feature-area";
 import SuitableArea from "@/src/common/suitable-area";
 import React from "react";
-import Breadcrumb from "../breadcrumb/breadcrumb";
+import Breadcrumb from "../../common/breadcrumb";
 import CounterArea from "../homes/home-3/counter-area";
 import FaqArea from "./faq-area";
 

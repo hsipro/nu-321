@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Breadcrumb from "../breadcrumb/breadcrumb";
+import Breadcrumb from "../../common/breadcrumb";
 
 const ErrorPage = () => {
   return (
