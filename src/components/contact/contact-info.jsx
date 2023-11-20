@@ -5,7 +5,7 @@ const contactItems = [
   {
     id: 1,
     icon: "fa-light fa-phone",
-    info: "(647) 555-0104"
+    info: "(647) 000-0004"
   },
   {
     id: 2,
