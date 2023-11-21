@@ -2,6 +2,31 @@ import React from "react";
 import Link from "next/link";
 
 const sections = [
+  {
+    title: "Artificial Intelligence (AI)",
+    description: [
+      "AI-driven analysis and insights for data optimization.",
+      "Predictive analytics, trend identification, and anomaly detection.",
+      "AI-enhanced processes for efficiency and innovation."
+    ]
+  },
+
+  {
+    title: "Technical Audit",
+    description: [
+      "Comprehensive evaluation of technical systems and infrastructure.",
+      "Identifying vulnerabilities, optimization opportunities, and best practices.",
+      "AI-supported auditing for accuracy and efficiency."
+    ]
+  },
+  {
+    title: "Bespoke Technical Work",
+    description: [
+      "Customized technical solutions tailored to business needs.",
+      "Full-stack development, integrations, and automation.",
+      "Creative AI-driven content generation and design."
+    ]
+  },
     {
       title: "CRM Planning and Development",
       description: [
@@ -10,6 +35,25 @@ const sections = [
         "Multi-tenant structure for collaborative CRM usage if available."
       ]
     },
+
+    {
+      title: "Managed Services for Technical Solutions",
+      description: [
+        "Ongoing management, updates, and support for technical solutions.",
+        "Proactive monitoring, maintenance, and issue resolution.",
+        "Ensuring the longevity and performance of systems."
+      ]
+    },
+
+    {
+      title: "Data Storage & Migration",
+      description: [
+        "Secure data storage solutions with encryption.",
+        "Data migration services for seamless transition.",
+        "AI-assisted data migration planning and execution."
+      ]
+    },
+
     {
       title: "Website Design & Software Development",
       description: [
@@ -26,28 +70,24 @@ const sections = [
         "Ensuring high uptime and optimal performance."
       ]
     },
+
+
     {
-      title: "Artificial Intelligence (AI)",
+      title: "E-commerce Solutions",
       description: [
-        "AI-driven analysis and insights for data optimization.",
-        "Predictive analytics, trend identification, and anomaly detection.",
-        "AI-enhanced processes for efficiency and innovation."
+        "Building and optimizing e-commerce platforms.",
+        "Integration of AI for personalized shopping experiences.",
+        "Secure payment gateways and order processing."
       ]
     },
+    
+
     {
-      title: "Bespoke Technical Work",
+      title: "SEO Services",
       description: [
-        "Customized technical solutions tailored to business needs.",
-        "Full-stack development, integrations, and automation.",
-        "Creative AI-driven content generation and design."
-      ]
-    },
-    {
-      title: "Managed Services for Technical Solutions",
-      description: [
-        "Ongoing management, updates, and support for technical solutions.",
-        "Proactive monitoring, maintenance, and issue resolution.",
-        "Ensuring the longevity and performance of systems."
+        "Search engine optimization strategies to enhance online visibility.",
+        "Keyword research, on-page optimization, and backlink management.",
+        "Improved organic search rankings and increased website traffic."
       ]
     },
     {
@@ -58,38 +98,7 @@ const sections = [
         "Leveraging AI for proposal content generation."
       ]
     },
-    {
-      title: "Data Storage & Migration",
-      description: [
-        "Secure data storage solutions with encryption.",
-        "Data migration services for seamless transition.",
-        "AI-assisted data migration planning and execution."
-      ]
-    },
-    {
-      title: "Technical Audit",
-      description: [
-        "Comprehensive evaluation of technical systems and infrastructure.",
-        "Identifying vulnerabilities, optimization opportunities, and best practices.",
-        "AI-supported auditing for accuracy and efficiency."
-      ]
-    },
-    {
-      title: "E-commerce Solutions",
-      description: [
-        "Building and optimizing e-commerce platforms.",
-        "Integration of AI for personalized shopping experiences.",
-        "Secure payment gateways and order processing."
-      ]
-    },
-    {
-      title: "SEO Services",
-      description: [
-        "Search engine optimization strategies to enhance online visibility.",
-        "Keyword research, on-page optimization, and backlink management.",
-        "Improved organic search rankings and increased website traffic."
-      ]
-    },
+
     {
       title: "Additional Services",
       description: [
