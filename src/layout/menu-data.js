@@ -18,6 +18,12 @@ const menu_data = [
     has_dropdown: false,
   },
   
+    {
+    id: 7,
+    title: "Opportunities",
+    link: "/opportunities",
+    has_dropdown: false,
+  },
 {
     id: 3,
     title: "Contact",

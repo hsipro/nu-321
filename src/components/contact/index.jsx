@@ -8,7 +8,6 @@ const Contact = () => {
     <>
       <Breadcrumb  title="Contact Us" subtitle="contact" />
       <ContactInfo />
-      <ContactForm />
     </>
   );
 };

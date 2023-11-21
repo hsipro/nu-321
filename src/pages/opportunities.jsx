@@ -1,13 +1,13 @@
 import React from "react";
 import SEO from "../common/seo";
-import DigitalSolutions from "../components/digital-solutions";
+import  Opportunities  from "../components/opportunities";
 import Wrapper from "../layout/wrapper";
 
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"ServiceNow"} />
-      <DigitalSolutions />
+      <SEO pageTitle={"Opportunities"} />
+      <Opportunities />
     </Wrapper>
   );
 };
