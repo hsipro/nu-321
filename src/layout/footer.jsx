@@ -9,8 +9,7 @@ const footer_data = [
     links: [
       { name: "Home", link: "/" },
       { name: "About Us", link: "/about" },
-      { name: "Discover More", link: "/#" },
-      { name: "Opportunities", link: "/#" },
+      { name: "Opportunities", link: "/opportunities" },
     ],
   },
   {
@@ -20,9 +19,8 @@ const footer_data = [
     footer_col: "footer-col-2",
     links: [
       { name: "CRM Planning And Development", link: "/services#crm" },
-      { name: "Website Design & Software Development", link: "#" },
-      { name: "Risk Assessment and Management", link: "#" },
-      { name: "Cloud Architecture Solutions", link: "#" },
+      { name: "Website Design & Software Development", link: "services#website-design" },
+      { name: "Risk Assessment and Management", link: "services#additional-services" },
     ],
   },
   {
@@ -31,9 +29,8 @@ const footer_data = [
     footer_col: "footer-col-3",
     cls: "col-xl-3",
     links: [
-      { name: "Proactive monitoring, maintenance, and issue resolution", link: "#" },
-      { name: "Ongoing management, updates, and support ", link: "#" },
-      { name: "Cyber Security", link: "" },
+      { name: "Proactive monitoring, maintenance, and issue resolution", link: "services#managed-services" },
+      { name: "Ongoing management, updates, and support ", link: "services#managed-services" },
     ],
   },
 ];
@@ -128,8 +125,10 @@ const Footer = () => {
                         <ul>
                           {item.links.map((link, i) => (
                             <li key={i}>
-                        
-                                {link.name}
+                             <a href={link.link} target={link.target} key={i}>
+                               {link.name}
+                             </a>
+                               
                             
                             </li>
                           ))}

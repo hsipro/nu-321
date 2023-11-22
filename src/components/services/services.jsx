@@ -113,34 +113,32 @@ const sections = [
     }
   ];
   
- 
-  const ServicesIntroAlt = () => {
+
+  const ServicesInfo = () => {
     return (
       // Service introduction section
       <section className="services-area pt-120 pb-90 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
         <div className="container">
           {sections.map((section, index) => (
-            <div key={index} className="row align-items-center bdr__bottom__grey">
+            <div key={index} className="row align-items-center bdr__bottom__grey" id={getAnchorId(section.title)} >
               {/* Column for service title */}
-              <div className="col-xxl-5 col-xl-5 col-lg-4">
-                <div className="section-title mb-55 mt-30">
+              <div className={`col-xxl-5 col-xl-5 col-lg-4 col-anchor`} >
+                <div className="section-title mb-25 mt-90" >
                   {/* Make the title clickable and link it to section.link */}
                   <h2 className="dp-section-title mb-15 text-uppercase">
-                  
-                      {section.title}
-               
+                    {section.title}
                   </h2>
                 </div>
               </div>
               {/* Column for service description */}
               <div className="col-xxl-7 col-xl-7 col-lg-8">
                 <div className="pb-20 ml-80">
-                  <div className="section-title mb-55 mt-30">
+                  <div className="section-title mb-35 mt-90">
                     <ul>
-                    {/* Display the service description */}
-                    {section.description.map((line, idx) => (
-                      <li key={idx}>{line}</li>
-                    ))}
+                      {/* Display the service description */}
+                      {section.description.map((line, idx) => (
+                        <li key={idx}>{line}</li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -152,5 +150,13 @@ const sections = [
     );
   };
   
-  export default ServicesIntroAlt;
+  // Helper function to generate the anchor id
+  const getAnchorId = (title) => {
+    // Extract the first two words, exclude words with less than 3 characters, convert to lowercase, and replace spaces with dashes
+    const words = title.split(' ').filter(word => word.length >= 3).slice(0, 2);
+    return words.join('-').toLowerCase();
+  };
+  
+  export default ServicesInfo;
+  
   

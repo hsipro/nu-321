@@ -8,14 +8,14 @@ const jobsData = [
     img: "/assets/img/icon/user.png",
     icon: "/assets/img/icon/arrow.png",
     title: "Full stack developer",
-    link: "#",
+    link: "opportunities",
   },
   {
     id: 2,
     img: "/assets/img/icon/user.png",
     icon: "/assets/img/icon/arrow.png",
     title: "UI/UX Designer",
-    link: "#",
+    link: "opportunities",
   },
 ];
 

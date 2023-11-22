@@ -1,9 +1,8 @@
 import React from "react";
-import ServicesIntro from "./introServices";
-import ServicesAll from "./allServices"
+import ServicesInfo from "./services";
 import PageHeader from "@/src/common/page-header";
 
-const Services = () => {
+const ServicesAlt = () => {
   const pageHeaderData = {
     title: "Unleash Excellence with",
     sub_title: "321DataPro Services",
@@ -13,10 +12,10 @@ const Services = () => {
   return (
     <>
       <PageHeader {...pageHeaderData} />
-      <ServicesIntro />      
-      <ServicesAll />  
+      < ServicesInfo />      
+
     </>
   );
 };
 
-export default Services;
+export default ServicesAlt;

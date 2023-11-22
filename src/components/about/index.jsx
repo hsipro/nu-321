@@ -18,7 +18,6 @@ const About = () => {
       <PageHeader {...pageHeaderData} />
       <AboutSection />
       <JoinUs />
-      <BrandArea />
       <ServicesHome />
     </>
   );
