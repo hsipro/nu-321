@@ -28,7 +28,7 @@ Fueled by faith, powered by prayer, and driven by purpose, we are entrusted with
 </p><p>
 Join us on this journey towards a brighter digital future, where possibilities are limitless, and together, we'll make a difference.
 </p><p> 
-“The power of people is often underestimated. Regardless of creed, color, or country of origin, when united in purpose, passion, and prayer, we can achieve the extraordinary, for we "can do all things through Christ who strengthens." - Philippians 4:13</p>,
+“The power of people is often underestimated. Regardless of creed, color, or country of origin, when united in purpose, passion, and prayer, we can achieve the extraordinary, for we "can do all things through Christ who strengthens." - Philippians 4:13</p>
     </>
   ),
 };
@@ -38,7 +38,7 @@ const AboutSection = () => {
 
   return (
     <section
-      className="tp-about-area pt-120 pb-90 wow fadeInUp"
+      className="tp-about-area pt-120 pb-50 wow fadeInUp"
       data-wow-duration="1.5s"
       data-wow-delay=".4s"
     >

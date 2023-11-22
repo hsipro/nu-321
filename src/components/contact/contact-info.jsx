@@ -38,6 +38,8 @@ const ContactInfo = () => {
             </div>
           ))}
         </div>
+
+   
       </div>
     </section>
   );

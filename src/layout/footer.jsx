@@ -95,7 +95,7 @@ const Footer = () => {
                   </div>
                       
                          <div className="footer-widget__text mb-35">
-                      <a className="btn-lgt-green">Contact Us</a>
+                      <a className="btn-lgt-green" href="contact">Contact Us</a>
                     </div>
                                 
                     <div className="footer-widget__social d-flex align-items-center">

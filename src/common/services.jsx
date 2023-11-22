@@ -6,24 +6,27 @@ const servicesHome = [
     icon: "fi fa-solid fa-globe",
     title: "Website Design/Software Dev",
     description: "Creative ideation, UI/UX design, and responsive layout. From Websites to Full-stack development.",
+    link: "services#website-design",
   },
   {
     id: 2,
     icon: "fi fa-solid fa-code",
     title: "CRM Planning & Dev",
     description: "Integration, customization, and management of CRM, and streamlined customer interactions.",
+    link: "services#crm-planning", 
   },
   {
     id: 3,
     icon: "fi fa-solid fa-brain",
     title: "AI Solutions",
     description: "AI-driven analysis and insights for data optimization and AI-enhanced processes for efficiency and innovation",
+    link: "services" ,
   },
 ];
 
 const ServicesBlock = () => {
   return (
-    <section className="services-home pt-40 pb-90 pl-205 pr-205 bg-bottom">
+    <section className="services-home pt-40 pb-40 pl-205 pr-205 bg-bottom">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-5">

@@ -52,6 +52,10 @@ const JoinUs = () => {
               <p className="text-white">
                 Dreaming of a career where passion meets acceleration? Welcome to 321DataPro, where we're not just hiring, we're cultivating stars. In our dynamic, competitive environment, we forge excellence through training, real-world exposure, and groundbreaking projects.
               </p>
+
+              <p className="text-white">
+                Our company operates on a fully remote basis for all roles.</p>
+
               {/* Button to explore other roles */}
               <a className="btn btn-default btn-lgt-green mt-20" href="opportunities">Explore Other Roles</a>
             </div>

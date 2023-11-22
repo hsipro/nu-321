@@ -1,9 +1,8 @@
 import React from "react";
 import AboutSection from "./about-section";
-import BrandArea from "@/src/common/brand-area";
 import PageHeader from "../../common/page-header";
 import JoinUs from "@/src/common/join-us";
-import ServicesHome from "@/src/common/services_block";
+import Services from "@/src/common/services";
 
 
 const About = () => {
@@ -17,8 +16,9 @@ const About = () => {
     <>
       <PageHeader {...pageHeaderData} />
       <AboutSection />
+      <Services />
       <JoinUs />
-      <ServicesHome />
+  
     </>
   );
 };
