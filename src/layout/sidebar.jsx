@@ -7,9 +7,9 @@ const Sidebar = ({ isActive, setIsActive }) => {
     <>
       <div className={`dp-sidebar-menu ${isActive ? "sidebar-opened" : ""}`}>
         <button className="sidebar-close" onClick={() => setIsActive(false)}>
-          <i className="icon_close"></i>
+          <i className="fa fa-times-circle"></i>
         </button>
-        <div className="side-logo mb-30">
+        <div className="side-logo mb-30 mr-35">
           <Link href="/">
             <img src="/assets/img/logo/logo-black.png" alt="logo" />
           </Link>
@@ -18,7 +18,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
             <MobileMenus />
         </div>
         <div className="sidebar-info">
-          <h4 className="mb-15">Contact Info</h4>
+          <h4 className="mb-15 text-white">Contact Info</h4>
           <ul>
           
             <li>

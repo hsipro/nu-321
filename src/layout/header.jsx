@@ -5,13 +5,6 @@ import NavMenu from "./nav-menu";
 import Sidebar from "./sidebar";
 
 
-// category_data
-const category_data = [
-  {title: "Digital Solutions"},
-  {title: "User Experience & Data"},
-  {title: "Data Design"},
-
-]
 const Header = () => {
 const {sticky} = useSticky()
   const [isActive, setIsActive] = useState(false);
@@ -40,12 +33,11 @@ const {sticky} = useSticky()
                   </div>
                   <div className="header-right d-md-flex align-items-center">
                     <div className="header-meta">
-                      <ul>
-                   
+                      <ul>                  
                       
                         <li>
                           <a onClick={() => setIsActive(true)}  href="#" className="dp-menu-toggle d-xl-none">
-                            <i className="icon_ul"></i>
+                          <i className="fa fa-bars"></i>
                           </a>
                         </li>
                       </ul>
