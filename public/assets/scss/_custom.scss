@@ -2,7 +2,7 @@
 
 .dp-column {
     padding:20px ;
-    background: var(--tp-common-white);
+    background: var(--dp-common-white);
     box-shadow: 13px 0 35px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
     height: calc(100% - 20px);
@@ -12,7 +12,7 @@
             width: 40px;
             line-height: 85px;
             text-align: center;
-            color: var(--tp-border-2);
+            color: var(--dp-border-2);
             display: inline-block;
             border-radius: 50px;
             font-size: 24px;
@@ -35,7 +35,7 @@
         font-weight:700;
         letter-spacing: -1px;
         margin-bottom:15px;
-        color: var(--tp-border-2);
+        color: var(--dp-border-2);
         text-transform: uppercase;
         @media #{$xl} {
             font-size: 18px;
@@ -43,8 +43,8 @@
     }
 }
 
-.tp-career-line-shape {
-    & .tp-aline-one {
+.dp-career-line-shape {
+    & .dp-aline-one {
         position: absolute;
         top: 90px;
         left: -65px;
@@ -63,7 +63,7 @@
         }
         
     }
-    & .tp-aline-two {
+    & .dp-aline-two {
         position: absolute;
         bottom: 300px;
         left: -60px;
@@ -79,7 +79,7 @@
             width: 110px;
         }
     }
-    & .tp-aline-three {
+    & .dp-aline-three {
         position: absolute;
         top: -60px;
         right: 125px;
@@ -97,7 +97,7 @@
 }
 
 // career-circle
-.tp-ab-circle-img {
+.dp-ab-circle-img {
     .ab-circle-one {
         position: absolute;
         top: 65px;
@@ -141,15 +141,15 @@
             font-size: 20px;
             font-family: 'Actor';
             font-weight: 500;
-            color: var(--tp-heading-primary);
+            color: var(--dp-heading-primary);
             line-height: 1.7;
             position: relative;
             padding-left: 50px;
             margin-bottom: 25px;
             &:hover {
                 & i {
-                    background: var(--tp-border-2);
-                    color: var(--tp-common-white);
+                    background: var(--dp-border-2);
+                    color: var(--dp-common-white);
                 }
             }
             @media #{$xl} {
@@ -168,7 +168,7 @@
                 width: 40px;
                 line-height: 40px;
                 background:  rgb(36, 93, 81, .1);
-                color: var(--tp-border-2);
+                color: var(--dp-border-2);
                 text-align: center;
                 display: block;
                 border-radius: 50px;
@@ -179,7 +179,7 @@
         }
     }
 }
-.tp-abcircle-content {
+.dp-abcircle-content {
     @media #{$lg,$md,$xs} {
         margin-left: 0;
     }
@@ -189,19 +189,19 @@
         }
     }
 }
-.tp-career-class-info {
+.dp-career-class-info {
     & ul {
         & li {
             animation: ab2animation 5s infinite linear alternate;
             position: absolute;
             font-size: 16px;
             padding: 25px 20px;
-            border: 1px solid var(--tp-common-white);
-            background: var(--tp-common-white);
+            border: 1px solid var(--dp-common-white);
+            background: var(--dp-common-white);
             border-radius: 5px;
             display: block;
             z-index: 2;
-            color: var(--tp-text-2);
+            color: var(--dp-text-2);
             box-shadow: 5px 8px 30px 0 rgba(17, 29, 59, 0.08);
             font-family: 'Actor';
             font-weight: 500;
@@ -213,8 +213,8 @@
                 margin-bottom: 5px;
                 display: block;
                 font-size: 28px;
-                font-weight: var(--tp-fw-bold);
-                color: var(--tp-heading-primary);
+                font-weight: var(--dp-fw-bold);
+                color: var(--dp-heading-primary);
                 @media #{$xs} {
                     margin-bottom: 0;
                     font-size: 20px;
@@ -261,11 +261,11 @@
         }
     }
 }
-.tp-career-list {
+.dp-career-list {
     & ul {
        & li {
             font-size: 20px;
-            color: var(--tp-heading-primary);
+            color: var(--dp-heading-primary);
             font-family: 'Actor';
             font-weight: 500;
             position: relative;
@@ -280,7 +280,7 @@
                 width: 40px;
                 line-height: 40px;
                 text-align: center;
-                color: var(--tp-border-2);
+                color: var(--dp-border-2);
                 background: rgba(36, 93, 81, .1);
                 display: inline-block;
                 border-radius: 50px;
@@ -293,19 +293,19 @@
             }
             &:hover {
                 & i {
-                    background: var(--tp-heading-secondary);
-                    color: var(--tp-common-white);
+                    background: var(--dp-heading-secondary);
+                    color: var(--dp-common-white);
                 }
             }
         }
     }
 }
-.tp-career-class-content {
+.dp-career-class-content {
     @media #{$md,$xs} {
         margin-left: 0;
     }
 }
-.tp-sub-career-info {
+.dp-sub-career-info {
     & ul {
         & li:nth-child(1) {
             left: 0px;
@@ -448,4 +448,70 @@
 
 .footer-widget__link li {
     color:#fff
+}
+
+.dp-cat-item {
+    padding: 30px 30px;
+    border-radius: 10px;
+    @include transition(.3s);
+    & .dp-category-title {
+        font-size: 24px;
+        line-height: 1;
+        margin-bottom: 0;
+        font-family: 'Actor';
+        font-weight: 500;
+        padding: 1.8em 1.5em 1.8em 4em;
+        background: #fff;
+        border-radius: 15px;
+        @media #{$xl}{
+            font-size: 20px;
+        }
+    }
+    &:hover {
+        box-shadow: rgba(5, 13, 54, 0.05) 5px 15px 30px 0px;
+        & .dp-category-title {
+            color: var(--dp-heading-secondary);
+        }
+        & .dp-category-icon {
+            & img {
+                transform: rotateY(180deg);
+            }
+        }
+    }
+}
+.dp-category-icon {
+    background: #fff;
+    padding:10px;
+    border-radius: 15px;
+    margin-right:-22px;
+    z-index:222;
+    box-shadow: 5px 10px 20px rgba(36, 36, 38, 0.36);
+    & img {
+        width: 40px;
+        height: auto;
+        transition-duration: .6s;
+    }
+}
+
+.dp-cat-content {
+    & .dp-title-small {
+        margin-bottom: 10px;
+        @media #{$lg} {
+            font-size: 20px;
+        }
+    }
+    & p {
+        margin-bottom: 0;
+    }
+}
+
+.dp-category-icon{
+    & span{
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        line-height: 65px;
+        text-align: center;
+        border-radius: 50%;
+    }
 }

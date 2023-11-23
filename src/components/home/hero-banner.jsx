@@ -19,8 +19,8 @@ const HeroBanner = () => {
                 </span>
                 <h2 className="hero-title gradient-line mb-35">{heroTitle}</h2>
                 <p>{heroText}</p>
-                <div className="tp-banner-btn">
-                  <a href="#about" className="tp-btn">
+                <div className="dp-banner-btn">
+                  <a href="#about" className="dp-btn">
                   ↓ 
                   </a>
                 </div>

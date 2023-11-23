@@ -53,7 +53,7 @@ const ContactForm = () => {
                             required
                           ></textarea>
                         </div>
-                        <button className="tp-btn" type="submit">
+                        <button className="dp-btn" type="submit">
                           Submit Now
                         </button>
                       </div>

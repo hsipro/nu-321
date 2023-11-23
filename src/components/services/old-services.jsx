@@ -49,7 +49,7 @@ const sections = [
 const ServicesIntroAlt = () => {
     return (
       // Service introduction section
-      <section className="tp-about-area pt-120 pb-90 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
+      <section className="dp-about-area pt-120 pb-90 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
         <div className="container">
           {sections.map((section, index) => (
             <div key={index} className="row align-items-center">
@@ -66,7 +66,7 @@ const ServicesIntroAlt = () => {
               </div>
               {/* Column for service description */}
               <div className="col-xxl-5 col-xl-7 col-lg-7 col-md-7">
-                <div className="tp-about-content pb-30 ml-40">
+                <div className="dp-about-content pb-30 ml-40">
                   <div className="section-title mb-55">
                     {/* Display the service description */}
                     <p>{section.description}</p>

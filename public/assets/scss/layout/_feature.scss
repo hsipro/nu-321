@@ -28,12 +28,12 @@
 	z-index: -1;
 }
 
-.tp-feature-item {
+.dp-feature-item {
     background-color: #F8FAF9;
     box-shadow: none;
     transition: .3s linear;
     &:hover {
-        background: var(--tp-common-white);
+        background: var(--dp-common-white);
         box-shadow: 5px 15px 30px rgba(5, 13, 54, 0.06);
     }
 }

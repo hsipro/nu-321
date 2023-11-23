@@ -21,14 +21,14 @@ const ServiceNowSection = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-6 col-lg-7 col-md-7">
-              <div className="tp-servicenow-content mb-30">
+              <div className="dp-servicenow-content mb-30">
                 <div className="section-title mb-25">
                          <h2 className="dp-section-title mb-20">
                   {title}
                  <span className="colour-0"> {sub_title} </span> 
                   </h2>             
                 </div>
-                <div className="tp-servicenow-list mb-35">
+                <div className="dp-servicenow-list mb-35">
                   <ul>
                     {servicenow_list.map((item, i) => (
                       <li key={i}>
@@ -38,7 +38,7 @@ const ServiceNowSection = () => {
                   </ul>
                 </div>
                 <div className="servicenow-btn">
-                  <Link href="/about" className="tp-btn">
+                  <Link href="/about" className="dp-btn">
                     Discover More
                   </Link>
                 </div>
@@ -46,7 +46,7 @@ const ServiceNowSection = () => {
             </div>
               
             <div className="col-xl-6 col-lg-5 col-md-5">
-              <div className="tp-servicenow-img p-relative mb-30 ml-25">
+              <div className="dp-servicenow-img p-relative mb-30 ml-25">
                 <img src={bg_img} alt="servicenow-img" />
                 <div className="tpservicenow-img-text d-none d-md-block">
                   <ul>

@@ -5,7 +5,7 @@ import MobileMenus from "./mobile-menus";
 const Sidebar = ({ isActive, setIsActive }) => {
   return (
     <>
-      <div className={`tp-sidebar-menu ${isActive ? "sidebar-opened" : ""}`}>
+      <div className={`dp-sidebar-menu ${isActive ? "sidebar-opened" : ""}`}>
         <button className="sidebar-close" onClick={() => setIsActive(false)}>
           <i className="icon_close"></i>
         </button>
@@ -19,7 +19,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
         </div>
         <div className="sidebar-info">
           <h4 className="mb-15">Contact Info</h4>
-          <ul className="side_circle">
+          <ul>
           
             <li>
               <a href="mailto: info@321datpro.com">info @ 321datpro.com</a>

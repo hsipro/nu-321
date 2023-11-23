@@ -43,7 +43,7 @@ const ServicesBlock = () => {
             </a>
           </div>
         </div>
-        <div className="tp-feature-cn">
+        <div className="dp-feature-cn">
           <div className="row">
             {servicesHome.map((item) => (
               <div key={item.id} className="col-xl-4 col-lg-4">
@@ -57,7 +57,7 @@ const ServicesBlock = () => {
                   <span className="dp-column__title mb-20"> {item.title}</span>
                   <div className="dp-column__text">
                     <p>{item.description}</p>
-                    <a className="mt-20 btn-arrow" href="/services">
+                    <a className="mt-20 btn-arrow" href={item.link}>
                       See More                   
                     </a>
                   </div>

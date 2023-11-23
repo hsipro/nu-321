@@ -36,11 +36,11 @@ const RegisterhtmlForm = () => {
                     placeholder="Enter password..."
                   />
                   <div className="mt-10"></div>
-                  <button className="tp-btn w-100">Register Now</button>
+                  <button className="dp-btn w-100">Register Now</button>
                   <div className="or-divide">
                     <span>or</span>
                   </div>
-                  <Link href="/sign-in" className="tp-border-btn w-100">
+                  <Link href="/sign-in" className="dp-border-btn w-100">
                     login Now
                   </Link>
                 </form>

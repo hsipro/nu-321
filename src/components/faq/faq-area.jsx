@@ -13,7 +13,7 @@ const FaqArea = () => {
           <div className="row text-center">
             <div className="col-lg-12">
               <div className="section-title mb-60">
-                <span className="tp-sub-title-box mb-15">FAQ</span>
+                <span className="dp-sub-title-box mb-15">FAQ</span>
                 <h2 className="dp-section-title">Many People Ask About This</h2>
               </div>
             </div>
@@ -54,7 +54,7 @@ const FaqArea = () => {
             </div>
           </div>
           <div className="faq-btn text-center">
-            <a href="#" className="tp-btn">
+            <a href="#" className="dp-btn">
               Add Your Questions
             </a>
           </div>

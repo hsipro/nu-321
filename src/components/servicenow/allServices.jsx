@@ -5,7 +5,7 @@ import servicesData from '@/src/data/services-data';
 // Filler item component with variable column classes
 const FillerItem1 = ({ columnClasses }) => (
   <div className={columnClasses}>
-    <div className="tp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ backgroundImage: `url(/assets/img/connect.jpg)` }}>
+    <div className="dp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ backgroundImage: `url(/assets/img/connect.jpg)` }}>
     <h3 className="text-uppercase text-white mt-30 mb-20">
         Let's Connect and Create Together
       </h3>
@@ -19,7 +19,7 @@ const FillerItem1 = ({ columnClasses }) => (
 // Filler item component with specific content for length 4 or 7
 const FillerItem2 = ({ columnClasses }) => (
   <div className={columnClasses}>
-    <div className="tp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ backgroundImage: `url(/assets/img/reach-out.jpg)` }}>
+    <div className="dp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ backgroundImage: `url(/assets/img/reach-out.jpg)` }}>
       <h3 className="text-uppercase text-white mt-30 mb-20">
         Reach Out Today For A <br></br>Brighter Tomorrow
       </h3>
@@ -68,7 +68,7 @@ const ServicesAll = () => {
               {services.map((item) => (
                 <div key={item.id} className="col-xl-4 col-lg-6 col-md-6">
                   {/* Display each service */}
-                  <div className="tp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
+                  <div className="dp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
                     {/* Link to the service details page */}
                     <h3 className="dp-column__title">
                       <Link href="#">{item.service_item}</Link>

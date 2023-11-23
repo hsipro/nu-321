@@ -6,13 +6,13 @@ const menu_data = [
     has_dropdown: false,
   },
   {
-    id: 6,
+    id: 2,
     title: "About Us",
     link: "/about",
     has_dropdown: false,
   },
   {
-    id: 7,
+    id: 4,
     title: "Services",
     link: "/services",
     has_dropdown: false,

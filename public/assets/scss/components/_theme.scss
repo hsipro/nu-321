@@ -15,10 +15,10 @@
     typography css start 
 ---------------------------------*/
 body {
-	font-family: var(--tp-ff-body);
-	font-size: var(--tp-fz-body);
+	font-family: var(--dp-ff-body);
+	font-size: var(--dp-fz-body);
 	font-weight: normal;
-	color: var(--tp-text-body);
+	color: var(--dp-text-body);
 	line-height: 26px;
 	overflow-X: hidden;
 }
@@ -41,36 +41,36 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--tp-ff-heading);
-	color: var(--tp-heading-primary);
+	font-family: var(--dp-ff-heading);
+	color: var(--dp-heading-primary);
 	margin-top: 0px;
-	font-weight: var(--tp-fw-bold);
+	font-weight: var(--dp-fw-bold);
 	line-height: 1.2;
 	@include transition(.3s);
 }
 
 h1 {
-	font-size: var(--tp-fz-h1);
+	font-size: var(--dp-fz-h1);
 }
   
 h2 {
-font-size: var(--tp-fz-h2);
+font-size: var(--dp-fz-h2);
 }
 
 h3 {
-font-size: var(--tp-fz-h3);
+font-size: var(--dp-fz-h3);
 }
 
 h4 {
-font-size: var(--tp-fz-h4);
+font-size: var(--dp-fz-h4);
 }
 
 h5 {
-font-size: var(--tp-fz-h5);
+font-size: var(--dp-fz-h5);
 }
 
 h6 {
-font-size: var(--tp-fz-h6);
+font-size: var(--dp-fz-h6);
 }
 
 ul {
@@ -83,10 +83,10 @@ li {
 }
 
 p {
-	font-family: var(--tp-ff-p);
-	font-size: var(--tp-fz-p);
-	font-weight: var(--tp-fw-normal);
-	color: var(--tp-text-2);
+	font-family: var(--dp-ff-p);
+	font-size: var(--dp-fz-p);
+	font-weight: var(--dp-fw-normal);
+	color: var(--dp-text-2);
 	margin-bottom: 15px;
 	line-height: 28px;
 }
@@ -170,30 +170,30 @@ input[type="color"] {
 }
 
 *::-moz-selection {
-	background: var(--tp-common-black);
-	color: var(--tp-common-white);
+	background: var(--dp-common-black);
+	color: var(--dp-common-white);
 	text-shadow: none;
 }
 ::-moz-selection {
-	background: var(--tp-common-black);
-	color: var(--tp-common-white);
+	background: var(--dp-common-black);
+	color: var(--dp-common-white);
 	text-shadow: none;
 }
 ::selection {
-	background: var(--tp-common-black);
-	color: var(--tp-common-white);
+	background: var(--dp-common-black);
+	color: var(--dp-common-white);
 	text-shadow: none;
 }
 
 
 *::-moz-placeholder {
-	color: var(--tp-common-black);
-	font-size: var(--tp-fz-body);
+	color: var(--dp-common-black);
+	font-size: var(--dp-fz-body);
 	opacity: 1;
 }
 *::placeholder {
-	color: var(--tp-common-black);
-	font-size: var(--tp-fz-body);
+	color: var(--dp-common-black);
+	font-size: var(--dp-fz-body);
 	opacity: 1;
 }
 
@@ -269,7 +269,7 @@ img{
 -----------------------------------------*/
 
 .body-overlay{
-    background-color: rgba($color: var(--tp-common-black), $alpha: .5);
+    background-color: rgba($color: var(--dp-common-black), $alpha: .5);
 	height: 100%;
 	width: 100%;
 	position: fixed;
@@ -322,12 +322,12 @@ img{
 				border: 2px solid #f1f1f1;
 				font-size: 16px;
 				font-weight: 400;
-				color: var(--tp-text-2);
+				color: var(--dp-text-2);
 				&:hover,
 				&.current{
-					background: var(--tp-border-2);
-					border-color: var(--tp-border-2);
-					color: var(--tp-common-white);
+					background: var(--dp-border-2);
+					border-color: var(--dp-border-2);
+					color: var(--dp-common-white);
 				}
 			}
 		}

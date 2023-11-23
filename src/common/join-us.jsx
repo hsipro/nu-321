@@ -22,13 +22,13 @@ const jobsData = [
 // JobItem component for rendering each job listing
 const JobItem = ({ id, img, link, title }) => (
   <div key={id} className="col-md-12">
-    <div className="tp-cat-item mb-40 d-flex align-items-center">
+    <div className="dp-cat-item mb-40 d-flex align-items-center">
       {/* Job icon */}
-      <div className="tp-category-icon mr-15">
+      <div className="dp-category-icon mr-15">
         <img src={img} alt="category-img" />
       </div>
       {/* Job title with Link to job details */}
-      <h4 className="tp-category-title">
+      <h4 className="dp-category-title">
         <Link className="btn-arrow" href={link}>{title}</Link>
       </h4>
     </div>
@@ -53,7 +53,7 @@ const JoinUs = () => {
                 Dreaming of a career where passion meets acceleration? Welcome to 321DataPro, where we're not just hiring, we're cultivating stars. In our dynamic, competitive environment, we forge excellence through training, real-world exposure, and groundbreaking projects.
               </p>
 
-              <p className="text-white">
+              <p className="text-white pt-10">
                 Our company operates on a fully remote basis for all roles.</p>
 
               {/* Button to explore other roles */}

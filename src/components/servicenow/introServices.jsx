@@ -27,7 +27,7 @@ const services = [
 // Action column component
 const ActionColumn = () => (
   <div className="col-md-12">
-    <div className="tp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ backgroundImage: `url(/assets/img/reach-out.jpg)` }}>
+    <div className="dp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ backgroundImage: `url(/assets/img/reach-out.jpg)` }}>
       <h3 className="text-uppercase text-white mt-30 mb-20">
         Reach Out Today For A <br />Brighter Tomorrow
       </h3>
@@ -41,7 +41,7 @@ const ActionColumn = () => (
 const ServicenowIntro = () => {
   return (
     // Service introduction section
-    <section className="tp-about-area pt-120 pb-90 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
+    <section className="dp-about-area pt-120 pb-90 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
       <div className="container">
         <div className="row align-items-center">
           {/* Column for service title */}
@@ -53,14 +53,14 @@ const ServicenowIntro = () => {
           </div>
           {/* Column for service description and services */}
           <div className="col-md-12">
-            <div className="tp-about-content pb-30 ml-80">
+            <div className="dp-about-content pb-30 ml-80">
               <div className="section-title mb-55">
                 {/* Display the service description and individual services */}
                 <div className="row mb-20">
                   {services.map((service, index) => (
                     <div key={index} className={`col-md-6`}>
                       {/* Individual service block */}
-                      <div className="tp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ visibility: 'visible', animationDuration: '0.8s', animationDelay: '0.2s' }}>
+                      <div className="dp-service dp-column mb-40 wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s" style={{ visibility: 'visible', animationDuration: '0.8s', animationDelay: '0.2s' }}>
                         {/* Service title with a link */}
                         <h3 className="dp-column__title">{service.title}</h3>
                         {/* Service description */}

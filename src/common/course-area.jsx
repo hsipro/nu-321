@@ -87,7 +87,7 @@ const CourseArea = () => {
           <div className="row text-center">
             <div className="col-lg-12">
               <div className="course-btn mt-20">
-                <Link className="tp-btn" href="/course-details">
+                <Link className="dp-btn" href="/course-details">
                   Browse All Courses
                 </Link>
               </div>

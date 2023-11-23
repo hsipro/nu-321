@@ -34,7 +34,7 @@
         font-weight: 500 ;
         font-size: 20px;
         margin-bottom: 20px;
-        color: var(--tp-common-white);
+        color: var(--dp-common-white);
         display: block;
         @media #{$xl,$lg,$md,$xs} {
             font-size: 18px;
@@ -50,7 +50,7 @@
         font-size: 48px;
         line-height: 1.3;
         position:relative;
-        color: var(--tp-common-white);
+        color: var(--dp-common-white);
         @media #{$xl}{
             font-size: 40px;
             margin-bottom: 25px;
@@ -65,13 +65,13 @@
             margin-bottom: 20px;
         }
         & i {
-            color: var(--tp-heading-secondary);
+            color: var(--dp-heading-secondary);
             font-style: normal;
         }
     }
     & p {
         font-size: 22px;
-        color: var(--tp-common-white);
+        color: var(--dp-common-white);
         line-height: 1.7;
         margin-bottom: 55px;
         @media #{$xl}{
@@ -97,18 +97,18 @@
             position: absolute;
             font-size: 16px;
             padding: 25px 21px;
-            border: 1px solid var(--tp-common-white);
+            border: 1px solid var(--dp-common-white);
             background: rgb(255, 255, 255 , .1);
             border-radius: 5px; 
             display: block; 
             z-index: 2;
             backdrop-filter: blur(100px);
-            color: var(--tp-common-white);
+            color: var(--dp-common-white);
             & span {
                 margin-bottom: 5px;
                 display: block;
                 font-size: 28px;
-                font-weight: var(--tp-fw-bold);
+                font-weight: var(--dp-fw-bold);
             }
         }
         & li:nth-child(1){
@@ -125,7 +125,7 @@
                 top: 380px;
             }
             & span {
-                color: var(--tp-heading-secondary);
+                color: var(--dp-heading-secondary);
             }
         }
         & li:nth-child(2){

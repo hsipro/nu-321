@@ -16,9 +16,9 @@ const LoginForm = () => {
                               <label htmlFor="pass">Password <span>**</span></label>
                               <input id="pass" type="password" placeholder="Enter password..." />
                               <div className="mt-10"></div>
-                              <button className="tp-btn w-100">login Now</button>
+                              <button className="dp-btn w-100">login Now</button>
                               <div className="or-divide"><span>or</span></div>
-							  <Link href="/register" className="tp-border-btn w-100">Register Now</Link>
+							  <Link href="/register" className="dp-border-btn w-100">Register Now</Link>
                            </form>
                      </div>
                   </div>

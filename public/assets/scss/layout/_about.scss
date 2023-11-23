@@ -4,7 +4,7 @@
 /*  06. ABOUT CSS START
 /*----------------------------------------*/
 
-.tp-about-content {
+.dp-about-content {
     @media #{$xl}{
         margin-left: 90px;
     }
@@ -12,12 +12,12 @@
         margin-left: 0;
     }
 }
-.tp-about-img {
+.dp-about-img {
     @media #{$xs}{
         margin-left: 0;
     }
 }
-.tp-about-shape {
+.dp-about-shape {
     & .a-shape-one {
         position: absolute;
         top: 105px;
@@ -40,8 +40,8 @@
         }
     }
 }
-.tp-about-line-shape {
-    & .tp-aline-one {
+.dp-about-line-shape {
+    & .dp-aline-one {
         position: absolute;
         top: 90px;
         left: -65px;
@@ -60,7 +60,7 @@
         }
         
     }
-    & .tp-aline-two {
+    & .dp-aline-two {
         position: absolute;
         bottom: 300px;
         left: -60px;
@@ -76,7 +76,7 @@
             width: 110px;
         }
     }
-    & .tp-aline-three {
+    & .dp-aline-three {
         position: absolute;
         top: -60px;
         right: 125px;
@@ -94,7 +94,7 @@
 }
 
 // about-circle
-.tp-ab-circle-img {
+.dp-ab-circle-img {
     .ab-circle-one {
         position: absolute;
         top: 65px;
@@ -138,15 +138,15 @@
             font-size: 20px;
             font-family: 'Actor';
             font-weight: 500;
-            color: var(--tp-heading-primary);
+            color: var(--dp-heading-primary);
             line-height: 1.7;
             position: relative;
             padding-left: 50px;
             margin-bottom: 25px;
             &:hover {
                 & i {
-                    background: var(--tp-border-2);
-                    color: var(--tp-common-white);
+                    background: var(--dp-border-2);
+                    color: var(--dp-common-white);
                 }
             }
             @media #{$xl} {
@@ -165,7 +165,7 @@
                 width: 40px;
                 line-height: 40px;
                 background:  rgb(36, 93, 81, .1);
-                color: var(--tp-border-2);
+                color: var(--dp-border-2);
                 text-align: center;
                 display: block;
                 border-radius: 50px;
@@ -176,7 +176,7 @@
         }
     }
 }
-.tp-abcircle-content {
+.dp-abcircle-content {
     @media #{$lg,$md,$xs} {
         margin-left: 0;
     }
@@ -186,19 +186,19 @@
         }
     }
 }
-.tp-about-class-info {
+.dp-about-class-info {
     & ul {
         & li {
             animation: ab2animation 5s infinite linear alternate;
             position: absolute;
             font-size: 16px;
             padding: 25px 20px;
-            border: 1px solid var(--tp-common-white);
-            background: var(--tp-common-white);
+            border: 1px solid var(--dp-common-white);
+            background: var(--dp-common-white);
             border-radius: 5px;
             display: block;
             z-index: 2;
-            color: var(--tp-text-2);
+            color: var(--dp-text-2);
             box-shadow: 5px 8px 30px 0 rgba(17, 29, 59, 0.08);
             font-family: 'Actor';
             font-weight: 500;
@@ -210,8 +210,8 @@
                 margin-bottom: 5px;
                 display: block;
                 font-size: 28px;
-                font-weight: var(--tp-fw-bold);
-                color: var(--tp-heading-primary);
+                font-weight: var(--dp-fw-bold);
+                color: var(--dp-heading-primary);
                 @media #{$xs} {
                     margin-bottom: 0;
                     font-size: 20px;
@@ -258,11 +258,11 @@
         }
     }
 }
-.tp-about-list {
+.dp-about-list {
     & ul {
        & li {
             font-size: 20px;
-            color: var(--tp-heading-primary);
+            color: var(--dp-heading-primary);
             font-family: 'Actor';
             font-weight: 500;
             position: relative;
@@ -277,7 +277,7 @@
                 width: 40px;
                 line-height: 40px;
                 text-align: center;
-                color: var(--tp-border-2);
+                color: var(--dp-border-2);
                 background: rgba(36, 93, 81, .1);
                 display: inline-block;
                 border-radius: 50px;
@@ -290,19 +290,19 @@
             }
             &:hover {
                 & i {
-                    background: var(--tp-heading-secondary);
-                    color: var(--tp-common-white);
+                    background: var(--dp-heading-secondary);
+                    color: var(--dp-common-white);
                 }
             }
         }
     }
 }
-.tp-about-class-content {
+.dp-about-class-content {
     @media #{$md,$xs} {
         margin-left: 0;
     }
 }
-.tp-sub-about-info {
+.dp-sub-about-info {
     & ul {
         & li:nth-child(1) {
             left: 0px;
@@ -348,7 +348,7 @@ div.choose-sub-color {
     top: 60px;
     left: 80px;
     padding: 10px 23px 10px 37px;
-    background: var(--tp-common-white);
+    background: var(--dp-common-white);
     border-radius: 50px;
     @media #{$xs} {
         top: 25px;
@@ -377,7 +377,7 @@ div.choose-sub-color {
     & span {
         font-weight: 400;
         font-size: 14px;
-        color: var(--tp-text-2);
+        color: var(--dp-text-2);
         margin-left: 15px;
         @media #{$xs} {
             margin-left: 5px;
@@ -410,7 +410,7 @@ div.choose-sub-color {
 	position: absolute;
 	bottom: 60px;
 	left: 80px;
-	background: var(--tp-common-white);
+	background: var(--dp-common-white);
 	padding: 10px;
 	border-radius: 10px;
     @media #{$md} {

@@ -26,19 +26,19 @@ const { img1, titleOne, titleTwo, description, aboutBtn } = aboutInfo;
 const About = () => {
   return (
     <section id="about"
-      className="tp-about-area pt-120 pb-50 wow fadeInUp"
+      className="dp-about-area pt-120 pb-50 wow fadeInUp"
       data-wow-duration="1.5s"
       data-wow-delay=".4s"
     >
       <div className="container">
         <div className="row align-items-top">
           <div className="col-xxl-7 col-xl-6 col-lg-6 col-md-6">
-            <div className="tp-about-img p-relative pb-30 ml-10">
+            <div className="dp-about-img p-relative pb-30 ml-10">
               <img src={img1} alt="about-img" />
             </div>
           </div>
           <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-6">
-            <div className="tp-about-content pb-30 ml-10">
+            <div className="dp-about-content pb-30 ml-10">
               <div className="dp-section-title-alt mb-55 mt-30">
                 <h2 className="text-uppercase mb-15 colour-0">
                   <span className="colour-0">{titleOne}</span>{" "}
@@ -48,7 +48,7 @@ const About = () => {
               </div>
               <p>{description}</p>
               <div className="about-btn">
-                <Link href="/about" className="tp-btn">
+                <Link href="/about" className="dp-btn">
                   {aboutBtn}
                 </Link>
               </div>

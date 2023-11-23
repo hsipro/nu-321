@@ -44,7 +44,7 @@ const {sticky} = useSticky()
                    
                       
                         <li>
-                          <a onClick={() => setIsActive(true)}  href="#" className="tp-menu-toggle d-xl-none">
+                          <a onClick={() => setIsActive(true)}  href="#" className="dp-menu-toggle d-xl-none">
                             <i className="icon_ul"></i>
                           </a>
                         </li>

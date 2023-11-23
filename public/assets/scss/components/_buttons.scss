@@ -8,13 +8,13 @@
 	height: 80px;
 	line-height: 80px;
 	text-align: center;
-	background-color: var(--tp-common-white);
+	background-color: var(--dp-common-white);
 	@include border-radius(50%);
-	color: var(--tp-common-black);
+	color: var(--dp-common-black);
 	animation: pulse 2s infinite;
 	&:hover{
-		background-color: var(--tp-common-black);
-		color: var(--tp-common-black);
+		background-color: var(--dp-common-black);
+		color: var(--dp-common-black);
 	}
 	& i{
 		padding-left: 2px;
@@ -37,7 +37,7 @@
 	& span{
 		display: inline-block;
 		width: 100%;
-		background: var(--tp-common-black);
+		background: var(--dp-common-black);
 		display: block;
 		position: absolute;
 		height: 3px;
@@ -59,11 +59,11 @@
 
 /* theme btn */
 
-.tp-btn {
+.dp-btn {
 	display: inline-block;
 	font-size: 15px;
 	font-weight: 500;
-	color: var(--tp-common-white);
+	color: var(--dp-common-white);
 	background: #2B6D95;
 	line-height: 1;
 	text-align: center;
@@ -78,11 +78,11 @@
 	}
 
 	&:hover{
-		color: var(--tp-common-white);
-		background-color: var(--tp-common-black);
+		color: var(--dp-common-white);
+		background-color: var(--dp-common-black);
 	}
 	&:focus{
-		color: var(--tp-common-white);
+		color: var(--dp-common-white);
 	}
 }
 
@@ -106,24 +106,24 @@
 	}
 
 	&:hover{
-		color: var(--tp-common-white);
-		background-color: var(--tp-theme-1);
-		border: 1px solid var(--tp-heading-primary);
+		color: var(--dp-common-white);
+		background-color: var(--dp-theme-1);
+		border: 1px solid var(--dp-heading-primary);
 	}
 	&:focus{
-		color: var(--tp-common-white);
+		color: var(--dp-common-white);
 	}	
 }
 
 /* border btn */
 
-.tp-border-btn{
+.dp-border-btn{
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 600;
-	color: var(--tp-heading-secondary);
-	background: var(--tp-common-white);
-	border: 1px solid var(--tp-heading-secondary);
+	color: var(--dp-heading-secondary);
+	background: var(--dp-common-white);
+	border: 1px solid var(--dp-heading-secondary);
 	line-height: 28px;
 	text-align: center;
 	padding: 10px 25px;
@@ -137,11 +137,11 @@
 	}
 
 	&:hover{
-		color: var(--tp-common-white);
-		background-color: var(--tp-heading-secondary);
+		color: var(--dp-common-white);
+		background-color: var(--dp-heading-secondary);
 	}
 	&:focus{
-		color: var(--tp-common-white);
+		color: var(--dp-common-white);
 	}
 
 }
@@ -150,13 +150,13 @@
 
 /* border btn */
 
-.tp-border-btn2{
+.dp-border-btn2{
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
-	color: var(--tp-common-white);
-	background-color: var(--tp-heading-secondary);
-	border: 1px solid var(--tp-heading-secondary);
+	color: var(--dp-common-white);
+	background-color: var(--dp-heading-secondary);
+	border: 1px solid var(--dp-heading-secondary);
 	line-height: 28px;
 	text-align: center;
 	padding: 7px 20px;
@@ -170,11 +170,11 @@
 	}
 
 	&:hover{
-		color: var(--tp-heading-secondary) ;
-		background-color:var(--tp-common-white);
+		color: var(--dp-heading-secondary) ;
+		background-color:var(--dp-common-white);
 	}
 	&:focus{
-		color: var(--tp-common-white);
+		color: var(--dp-common-white);
 	}
 
 }
@@ -199,12 +199,12 @@
 	}
 
 	&:hover{
-		color: var(--tp-common-white);
+		color: var(--dp-common-white);
 		background-color: #2B6D95;
-		border: 1px solid var(--tp-heading-primary);
+		border: 1px solid var(--dp-heading-primary);
 	}
 	&:focus{
-		color: var(--tp-common-white);
+		color: var(--dp-common-white);
 	}	
 }
 
@@ -215,9 +215,9 @@
 	position: relative;
 	display: inline-block;
 	font-size: 18px;
-	color: var(--tp-text-3);
+	color: var(--dp-text-3);
 	background: transparent;
-	border: 1px solid var(--tp-border-2);
+	border: 1px solid var(--dp-border-2);
 	width: 50px;
 	height: 50px;
 	text-align: center;
@@ -246,9 +246,9 @@
 		}
 	}
 	&:hover{
-		color: var(--tp-common-white);
-		background-color: var(--tp-theme-1);
-		border-color: var(--tp-theme-1);
+		color: var(--dp-common-white);
+		background-color: var(--dp-theme-1);
+		border-color: var(--dp-theme-1);
 		& i{
 			left: 100%;
 			visibility: hidden;
@@ -267,7 +267,7 @@
 .link-btn-2{
 	position: relative;
 	font-size: 16px;
-	color: var(--tp-text-1);
+	color: var(--dp-text-1);
 	font-weight: 500;
 	padding-right: 21px;
 	display: inline-block;
@@ -291,7 +291,7 @@
 		}
 	}
 	&:hover{
-		color: var(--tp-theme-1);
+		color: var(--dp-theme-1);
 		& i{
 			&:first-child{
 				right: 0;

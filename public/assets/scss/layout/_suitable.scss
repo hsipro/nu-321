@@ -4,7 +4,7 @@
 /*  12. SUITABLE CSS START
 /*----------------------------------------*/
 
-.tp-suit {
+.dp-suit {
     padding: 52px 20px 50px 30px;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -16,10 +16,10 @@
     }
     &__title {
         font-size: 24px;
-        color: var(--tp-common-black);
+        color: var(--dp-common-black);
         line-height: 34px;
         & span {
-            color: var(--tp-heading-secondary);
+            color: var(--dp-heading-secondary);
         }
     }
     &__img {

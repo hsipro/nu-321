@@ -58,7 +58,7 @@ const BrandArea = ({ style_about }) => {
           )}
           <div className="row">
             <div className="col-xl-12">
-              <div className="brand-area tp-brand-active">
+              <div className="brand-area dp-brand-active">
                 <Slider {...setting}>
                   {brands_data.map((item, i) => (
                     <div key={i} className="brand-item">

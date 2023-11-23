@@ -18,7 +18,7 @@ const ErrorPage = () => {
                   <h4 className="error-title mb-35">
                     Oops! The Page You Are Looking <br /> For Does Not Exist
                   </h4>
-                  <Link href="/" className="tp-btn">
+                  <Link href="/" className="dp-btn">
                     Back To Home
                   </Link>
                 </div>

@@ -25,6 +25,10 @@ const JobInfo = () => {
                 <li>UI/UX Designer</li>
                 <li>Cloud Deployment Specialist</li>
                 <li>Full-stack Developer</li>
+                <li>AI Developer</li>
+                <li>Backend Developer</li>
+                <li>Frontend Developer</li>
+
               </ol>
 
               <p>Please send your resume to kristen@321datapro.com.</p>

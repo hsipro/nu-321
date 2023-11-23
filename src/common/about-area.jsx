@@ -30,14 +30,14 @@ const AboutArea = ({style_about}) => {
   return (
     <>
       <section
-        className="tp-about-area pb-70 wow fadeInUp"
+        className="dp-about-area pb-70 wow fadeInUp"
         data-wow-duration=".8s"
         data-wow-delay=".3s"
       >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-12 col-12">
-              <div className="tp-about-class p-relative pb-50">
+              <div className="dp-about-class p-relative pb-50">
                 {
                   style_about ?
                   <img
@@ -51,7 +51,7 @@ const AboutArea = ({style_about}) => {
                   alt="about-img"
                 />
                 }
-                <div className="tp-about-class-info">
+                <div className="dp-about-class-info">
                   <ul>
                     <li>
                       <span>{students}</span>Worldwide Students
@@ -70,9 +70,9 @@ const AboutArea = ({style_about}) => {
               </div>
             </div>
             <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-12 col-12">
-              <div className="tp-about-class-content mb-50 ml-75">
+              <div className="dp-about-class-content mb-50 ml-75">
                 <div className="section-title mb-35">
-                  <span className="tp-bline-stitle mb-15">How To Start</span>
+                  <span className="dp-bline-stitle mb-15">How To Start</span>
                   <h2 className="dp-section-title mb-25">
                     {title}
                   </h2>
@@ -80,7 +80,7 @@ const AboutArea = ({style_about}) => {
                    {des}
                   </p>
                 </div>
-                <div className="tp-about-list mb-65">
+                <div className="dp-about-list mb-65">
                   <ul>
                     {about_list_data.map((item, i) => (
                       <li key={i}>
@@ -90,8 +90,8 @@ const AboutArea = ({style_about}) => {
                     ))}
                   </ul>
                 </div>
-                <div className="tp-about-btn-3">
-                  <Link href="/about" className="tp-btn">
+                <div className="dp-about-btn-3">
+                  <Link href="/about" className="dp-btn">
                     Explore Courses
                   </Link>
                 </div>
